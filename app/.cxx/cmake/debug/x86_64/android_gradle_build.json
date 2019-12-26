@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/brothercomplex/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/brothercomplex/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dgl2jni_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -Wall -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/brothercomplex/Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/home/brothercomplex/Android/Sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/brothercomplex/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/brothercomplex/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "gl2jni-Debug-x86_64": {
+      "buildCommand": "/home/brothercomplex/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/.cxx/cmake/debug/x86_64\" gl2jni",
+      "buildType": "debug",
+      "toolchain": "212367106",
+      "abi": "x86_64",
+      "artifactName": "gl2jni",
+      "files": [
+        {
+          "src": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/cpp/gl_code.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so"
+    }
+  },
+  "toolchains": {
+    "212367106": {
+      "cppCompilerExecutable": "/home/brothercomplex/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

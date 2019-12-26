@@ -1,0 +1,7 @@
+Executable : /home/brothercomplex/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/.cxx/cmake/debug/armeabi-v7a
+gl2jni
+jvmArgs : 
+
