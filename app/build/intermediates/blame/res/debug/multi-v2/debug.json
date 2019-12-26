@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat",
+            "outputFile": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
                 {
-                    "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/res/values-sw/values-sw.xml",
+                    "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat",
+            "outputFile": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat",
             "map": [
                 {
-                    "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -48,10 +48,6 @@
         "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/res/merged/debug/layout_vst_grid_item.xml.flat",
-        "source": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/res/layout/vst_grid_item.xml"
-    },
-    {
         "merged": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
         "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
     },

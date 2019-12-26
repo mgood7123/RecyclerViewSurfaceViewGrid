@@ -194,8 +194,6 @@ id notification_main_column_container
 id packed
 id parent
 id percent
-id placeholder
-id plugin_title
 id right
 id right_icon
 id right_side
@@ -227,7 +225,6 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout vst_grid
-layout vst_grid_item
 mipmap ic_launcher
 string gl2jni_activity
 string status_bar_notification_info_overflow
