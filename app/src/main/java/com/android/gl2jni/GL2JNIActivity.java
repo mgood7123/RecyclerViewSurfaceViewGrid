@@ -39,7 +39,7 @@ public class GL2JNIActivity extends Activity {
             @Override
             public void onClick(View v) {
                 GL2JNIActivity.this.setContentView(vstGrid.getView());
-                // onResume is called from
+                // onResume is called from onCreateViewHolder
             }
         });
         findViewById(R.id.buttonRenderSurfaceViewDirectly).setOnClickListener(new View.OnClickListener() {
