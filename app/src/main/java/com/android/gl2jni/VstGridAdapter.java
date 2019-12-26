@@ -3,8 +3,6 @@ package com.android.gl2jni;
 import android.app.Activity;
 import android.util.Log;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.RelativeLayout;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,8 +16,8 @@ public class VstGridAdapter extends RecyclerView.Adapter<VstGridAdapter.MyViewHo
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         String TAG = "VstGridAdapter:MyViewHolder";
-        public ViewGroup plugin;
-        public MyViewHolder(ViewGroup pluginToAdd) {
+        public GL2JNIView plugin;
+        public MyViewHolder(GL2JNIView pluginToAdd) {
             super(pluginToAdd);
             Log.w(TAG, "MyViewHolder(View pluginToAdd)");
             plugin = pluginToAdd;
@@ -43,11 +41,8 @@ public class VstGridAdapter extends RecyclerView.Adapter<VstGridAdapter.MyViewHo
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         GL2JNIView mView = new GL2JNIView(mActivity);
-        RelativeLayout rel = new RelativeLayout(mActivity);
-//        rel.addView(new Button(mActivity));
-        rel.addView(mView);
         mView.onResume();
-        return new MyViewHolder(rel);
+        return new MyViewHolder(mView);
     }
 
     // required but may be left empty
