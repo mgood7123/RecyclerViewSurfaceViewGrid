@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget2.no.scrolling.GridLayoutManager;
+import androidx.recyclerview.widget2.no.scrolling.RecyclerView;
 
 // here is where we shall open, and add, new Plugins
 public class VstGrid {

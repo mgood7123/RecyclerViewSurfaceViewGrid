@@ -4,22 +4,20 @@
             "outputFile": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/brothercomplex/.gradle/caches/transforms-2/files-2.1/4677d8a5382c107f6965fb7455600737/recyclerview-1.1.0/res/values/values.xml",
+                    "source": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/res/values/attrs.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,111,170,218,274,349,425,497,563",
-                        "endLines": "2,3,4,5,6,7,8,9,38",
-                        "endColumns": "55,58,47,55,74,75,71,65,24",
-                        "endOffsets": "106,165,213,269,344,420,492,558,2084"
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "761",
+                        "endColumns": "56",
+                        "endOffsets": "813"
                     },
                     "to": {
-                        "startLines": "127,139,140,141,142,143,144,195,355",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5819,6627,6686,6734,6790,6865,6941,10114,25385",
-                        "endLines": "127,139,140,141,142,143,144,195,383",
-                        "endColumns": "55,58,47,55,74,75,71,65,24",
-                        "endOffsets": "5870,6681,6729,6785,6860,6936,7008,10175,26906"
+                        "startLines": "127",
+                        "startColumns": "4",
+                        "startOffsets": "5819",
+                        "endColumns": "55",
+                        "endOffsets": "5870"
                     }
                 },
                 {
@@ -31,6 +29,40 @@
                         "endLines": "2,10,11,12,13,14,18,19,20,21,24,25,28,31,32,33,34,35,38,41,42,43,44,49,52,55,56,57,62,63,64,67,70,71,74,77,80,83,84,87,90,91,96,97,102,105,108,109,110,111,112,113,114,115,116,117,126",
                         "endColumns": "60,11,47,51,60,45,11,60,59,69,11,67,11,11,61,64,67,66,11,11,66,64,64,11,11,11,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,11,11,64,61,61,61,58,59,60,60,58,11",
                         "endOffsets": "111,402,450,502,563,609,736,797,857,927,1060,1128,1257,1383,1445,1510,1578,1645,1768,1893,1960,2025,2090,2271,2392,2513,2579,2646,2856,2925,2991,3116,3242,3309,3435,3562,3687,3814,3879,4005,4128,4193,4401,4468,4648,4768,4888,4953,5015,5077,5139,5198,5258,5319,5380,5439,5814"
+                    }
+                },
+                {
+                    "source": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "24,26,25,20,22,21",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1036,1151,1095,812,959,887",
+                        "endColumns": "58,47,55,74,75,71",
+                        "endOffsets": "1090,1194,1146,882,1030,954"
+                    },
+                    "to": {
+                        "startLines": "139,140,141,142,143,144",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "6627,6686,6734,6790,6865,6941",
+                        "endColumns": "58,47,55,74,75,71",
+                        "endOffsets": "6681,6729,6785,6860,6936,7008"
+                    }
+                },
+                {
+                    "source": "/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "765",
+                        "endColumns": "65",
+                        "endOffsets": "826"
+                    },
+                    "to": {
+                        "startLines": "195",
+                        "startColumns": "4",
+                        "startOffsets": "10114",
+                        "endColumns": "65",
+                        "endOffsets": "10175"
                     }
                 },
                 {

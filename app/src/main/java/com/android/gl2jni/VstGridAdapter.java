@@ -5,7 +5,7 @@ import android.util.Log;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget2.no.scrolling.RecyclerView;
 
 import java.util.Stack;
 
@@ -19,7 +19,7 @@ public class VstGridAdapter extends RecyclerView.Adapter<VstGridAdapter.MyViewHo
         public GL2JNIView plugin;
         public MyViewHolder(GL2JNIView pluginToAdd) {
             super(pluginToAdd);
-            Log.w(TAG, "MyViewHolder(View pluginToAdd)");
+            Log.w(TAG, "MyViewHolder(GL2JNIView pluginToAdd)");
             plugin = pluginToAdd;
         }
     }
@@ -41,13 +41,14 @@ public class VstGridAdapter extends RecyclerView.Adapter<VstGridAdapter.MyViewHo
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         GL2JNIView mView = new GL2JNIView(mActivity);
-        mView.onResume();
         return new MyViewHolder(mView);
     }
 
     // required but may be left empty
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {}
+    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        holder.plugin.onResume();
+    }
 
     // required
     @Override

@@ -66,7 +66,7 @@ import javax.microedition.khronos.opengles.GL10;
  */
 class GL2JNIView extends GLSurfaceView {
     private static String TAG = "GL2JNIView";
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     public GL2JNIView(Context context) {
         super(context);

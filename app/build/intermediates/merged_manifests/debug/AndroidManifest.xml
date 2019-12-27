@@ -20,7 +20,7 @@
             android:name="com.android.gl2jni.GL2JNIActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

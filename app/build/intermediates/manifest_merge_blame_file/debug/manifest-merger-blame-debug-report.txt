@@ -34,7 +34,7 @@
 21-->/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/AndroidManifest.xml:13:15-65
 22            android:launchMode="singleTask"
 22-->/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/AndroidManifest.xml:12:15-46
-23            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+23            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
 23-->/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/AndroidManifest.xml:11:15-79
 24            <intent-filter>
 24-->/home/brothercomplex/AndroidStudioProjects/HelloGL2/app/src/main/AndroidManifest.xml:14:7-17:23
